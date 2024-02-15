@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streetwear Login Page</title>
+    <!-- External stylesheets -->
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader"></div>
+    <!-- Container for sign-up and sign-in forms -->
+    <div class="container" id="container">
+        <!-- Sign-up form -->
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <!-- Form inputs -->
+                <span> Or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <!-- Submit button -->
+                <button> Sign up </button>
+            </form>
+        </div>
+        <!-- Sign-in form -->
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign in</h1>
+                <!-- Social icons -->
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <!-- Form inputs -->
+                <span> Or use your email and password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <!-- Submit button -->
+                <button> Sign in </button>
+            </form>
+        </div>
+        <!-- Toggle container for switching between sign-up and sign-in forms -->
+        <div class="toggle-container">
+            <div class="toggle">
+                <!-- Toggle panels -->
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <!-- Button to switch to sign-in form -->
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <!-- Button to switch to sign-up form -->
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="login.js"></script>
+</body>
+
+</html>
