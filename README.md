@@ -3,6 +3,15 @@
 ## Concept
 An online destination for streetwear enthusiasts, offering wide range of products presented in a visually appealing and user-friendly manner.
 
+
+## Instruction
+- When the page is open, you will see on the top of the screen, from left to right. Logo, Nav bar (Home, about, menu, contact, etc.) two icons (profile, cart) and black circle (darkmode).
+- When you click on the profile icon, it will redirect you to the profile page. Click on the shopping cart, and it open the shopping cart. Click on the black circle with white outer layer, and it will change the background colour to white.
+- Profile page: There's a sign in/ sign up form, click on either one and it will change form. It will also pop up error messages for any incorrect input into the contact imformation form, before signing in or signing up.
+- Cart tab: In the shopping cart, there's items with name, price and quantity (plus and minus). Click on the plus or minus and it will display the price and the total price and beside will display discount figure. Below the tab are close and check out button. click close to close the tab.
+- Review page: In the review section, scroll down to 'Give us a review' button, click on it and it will redirect to review page. On the review page, there will be a few seconds loading screen, after it fade you will see emoji, slider, comment box and submit button. Use the slider to change star rating and the emoji will change depending on how many stars you are giving. Click on submit button and it will redirect you to the profile page to sign in/ sign up.
+- Menu section: Each items has 'add to cart' button and above it there's quantity number. you can click minus or plus sign for change in quantity.
+
 ## Features
 - **Cart Functionality**: The code manages the shopping cart functionality, allowing users to add items to the cart, adjust quantities, and view/update the cart.
 It listens for click events on buttons related to adding items to the cart (add-to-cart buttons), incrementing (plus) and decrementing (minus) quantities, and closing the cart tab.
